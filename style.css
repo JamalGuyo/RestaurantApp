@@ -4,8 +4,23 @@
   padding: 0px;
   box-sizing: border-box;
 }
+/* general styles */
 body {
+  background: #cccccc;
+}
+button {
+  outline: none;
+  border: none;
+  padding: 8px 14px;
+  border: 1px solid #00b334;
+  color: black;
   background: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover {
+  background: #00b334;
+  color: white;
 }
 /* navbar styling */
 nav {
@@ -27,4 +42,54 @@ nav i {
 }
 nav a:hover {
   color: orange;
+}
+/* main content styling */
+main {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+/* food card */
+.card {
+  width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  transition: 1s;
+}
+.card div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.card div .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card div .title h1 {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+.card div .title h2 {
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #00b334;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 5px 0px rgba(0, 179, 52, 0.5);
+}
+.card:hover img {
+  transform: rotate(1deg);
+}
+.card div button {
 }
