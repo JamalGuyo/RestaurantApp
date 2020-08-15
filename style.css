@@ -37,11 +37,16 @@ nav a {
   color: white;
   margin: 0px 5px;
 }
+nav div a {
+  border-bottom: 1px solid #00b334;
+}
+
 nav i {
   font-size: 1.2em;
 }
 nav a:hover {
-  color: orange;
+  color: #00b334;
+  border: none;
 }
 /* main content styling */
 main {
@@ -105,5 +110,43 @@ main {
 .card:hover img {
   transform: rotate(1deg);
 }
-.card div button {
+
+/* form styles */
+form {
+  padding: 10px;
+  width: 600px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+form h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #00b334;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-bottom: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+form input,
+textarea {
+  padding: 15px 20px;
+  margin-bottom: 5px;
+  border: none;
+  outline: none;
+}
+form button {
+  width: 100%;
+  background: #00b334 !important;
+  color: white !important;
+  padding: 12px 15px;
+}
+form button:hover {
+  background: white !important;
+  color: black !important;
 }

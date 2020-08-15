@@ -14,8 +14,8 @@
     <nav>
         <a href="/"><i class="fas fa-hamburger"></i></a>
         <div>
-            <a href="">food</a>
-            <a href="">drinks</a>
-            <a href="">contact</a>
+            <a href="/restaurantApp/new.php"><i class="fas fa-plus-circle"></i> food</a>   
+            <a href="/restaurantApp">food</a>
+            <a href="/restaurantApp/contact.php">contact</a>
         </div>
     </nav>
