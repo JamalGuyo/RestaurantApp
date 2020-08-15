@@ -3,7 +3,7 @@
 if (isset($_POST['submit_food'])) {
 // connect to database
 require_once('../connection.php');
-// get data from the form
+// get all data from the form
 $name = $_POST['name'];
 $image = $_POST['image'];
 $price = $_POST['price'];

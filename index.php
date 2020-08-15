@@ -28,6 +28,7 @@
         </div>
         <div class="body">
            <div class="title">
+               <h2 class="secondary"><?php echo $category?></h2>
                <h1><?php echo $name?></h1>
                <h2 class="secondary">Ksh.<?php echo $price?></h2>
            </div>
