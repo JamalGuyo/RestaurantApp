@@ -12,7 +12,7 @@
 <body>
 <!-- navbar -->
     <nav>
-        <a href="/"><i class="fas fa-hamburger"></i></a>
+        <a href="/restaurantApp"><i class="fas fa-hamburger"></i></a>
         <div>
             <a href="/restaurantApp/new.php"><i class="fas fa-plus-circle"></i> food</a>   
             <a href="/restaurantApp">food</a>
