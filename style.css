@@ -48,17 +48,31 @@ main {
   width: 80%;
   margin: 50px auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 /* food card */
 .card {
   width: 300px;
+  height: 450px;
+  overflow: hidden;
   margin: 10px;
   border-radius: 5px;
   background: white;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.2s;
   cursor: pointer;
+}
+.card .image {
+  padding: 0px;
+  height: 200px;
+  overflow: hidden;
+}
+.card .body {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .card img {
   width: 100%;
